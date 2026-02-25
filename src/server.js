@@ -18,6 +18,5 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na porta 3000 - testando alteração 
 
 server.listen(8000, () => {
-  console.log("Boas vindas")
-  console.log("API disponível em http://localhost:8000")
+  console.log("API - http://localhost:8000")
 })
